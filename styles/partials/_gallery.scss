@@ -1,0 +1,19 @@
+#gallery {
+    display: flex;
+    flex-direction: row;
+    img {
+        width: 25%;
+    }
+    #gallery-img-1 {
+        content: url(../images/desktop/image-gallery-milkbottles.jpg);
+    }
+    #gallery-img-2 {
+        content: url(../images/desktop/image-gallery-orange.jpg);
+    }
+    #gallery-img-3 {
+        content: url(../images/desktop/image-gallery-cone.jpg);
+    }
+    #gallery-img-4 {
+        content: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    }
+}

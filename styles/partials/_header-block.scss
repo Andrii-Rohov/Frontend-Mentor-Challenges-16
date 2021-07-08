@@ -1,0 +1,114 @@
+#header-block {
+    height: 800px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35px 40px 40px 40px;
+    box-sizing: border-box;
+    color: $White;
+
+    #header {
+        display: flex;
+        flex-direction: row;
+        #logo-wrapper {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            img {
+                width: 170px;
+            }
+        }
+        
+        #navbar {
+            display: flex;
+            width: 50%;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            font-family: $FONT-Barlow;
+            font-size: 1em;
+            transition: 150ms ease-in-out;
+            p {
+                margin: 0 7% 0 0;
+
+                a {
+                    text-decoration: none;
+                    color: $White;
+                    &:hover {
+                        color: $Very-dark-desaturated-blue;
+                    }
+                }
+                
+            }
+            #contact-button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                background-color: $White;
+                border-radius: 50px;
+                min-width: 140px;
+                min-height: 56px;
+                transition: 150ms linear;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.325);
+                    cursor: pointer;
+                    a {
+                        color: $White;
+                    }
+                }
+                a {
+                    font-size: 0.9em;
+                    color: $Very-dark-desaturated-blue;
+                    font-family: $FONT-Fraunces;
+                    text-transform: uppercase;
+                    
+                }
+            }
+            
+        }
+        #menu-bars {
+            width: 25px;
+            cursor: pointer;
+            display: none;
+        }
+
+    }
+    #greeting {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        h1 {
+            font-size: 3em;
+            letter-spacing: 10px;
+            font-weight: 900;
+            font-family: $FONT-Fraunces;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        img {
+            transform: translateY(50%);
+            animation: arrow 1700ms ease-in-out infinite;
+        
+        }
+
+
+    }
+    
+
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(50%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(50%);
+    }
+}

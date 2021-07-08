@@ -1,0 +1,24 @@
+@import "./partials/variables";
+
+@import "./partials/header-block";
+
+@import "./partials/grid-box";
+
+@import "./partials/testimonials-block";
+
+@import "./partials/gallery";
+
+@import "./partials/footer";
+
+@import "./partials/media";
+
+body {
+    background-color: $White;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+
+

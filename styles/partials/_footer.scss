@@ -1,0 +1,67 @@
+#footer {
+    height: 350px;
+    background-color: hsl(167, 44%, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+        width: 170px;
+        margin: 72px 12px 0 0;
+        color: $Dark-moderate-cyan;
+    }
+    #nav-footer {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: space-between;
+        margin-top: 25px;
+        a {
+            text-decoration: none;
+            color: $Dark-moderate-cyan;
+            font-family: $FONT-Barlow;
+            font-size: 1em;
+            transition: 150ms linear;
+            &:hover {
+                color: $White;
+            }
+        }
+    }
+    #footer-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 75px;
+        width: 165px;
+        i {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: hsl(168, 45%, 32%);
+            transition: 150ms ease-in-out;
+            &:hover {
+                color: $White;
+            }
+        }
+    }
+    .attribution{
+        font-family: $FONT-Barlow;
+        color: hsl(168, 45%, 32%);
+        font-weight: 400;
+        font-size: 1em;
+        text-align: center;
+        width: 90%;
+        a {
+            text-decoration: none;
+            font-family: $FONT-Barlow;
+            font-weight: 400;
+            color: $Dark-blue;
+            transition: 150ms ease-in-out;
+            &:hover {
+                color: $White;
+            }
+        }
+
+    }
+   
+  
+}

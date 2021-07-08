@@ -1,0 +1,64 @@
+#client-testimonials-block {
+    height: 777px;
+    background-color: $White;
+    #testimonials-title {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 185px;
+        h3 {
+            font-family: $FONT-Fraunces;
+            color: $Grayish-blue;
+            text-transform: uppercase;
+            font-size: 1.11em;
+            font-weight: 900;
+            margin: 0;
+            letter-spacing: 5px;
+        }
+    } 
+    #clients {
+        display: flex;
+        flex-direction: row;
+        margin: 80px 11% 0;
+        .person {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            img {
+                width: 72px;
+                height: 72px;
+                border-radius: 50%;
+                margin-bottom: 40px;
+            }
+            p {
+                font-family: $FONT-Barlow;
+                color: $Very-dark-grayish-blue;
+                text-align: center;
+                font-size: 1em;
+                line-height: 32px;
+            }
+            h5 {
+                font-family: $FONT-Fraunces;
+                color: $Very-dark-desaturated-blue;
+                font-size: 1em;
+                font-weight: 900;
+                margin: 14% 0 0;
+                
+            }
+            h6 {
+                font-family: $FONT-Barlow;
+                color: $Grayish-blue;
+                font-size: 0.75em;
+                margin: 10px 0 0;
+
+            }
+        }
+        .thomas {
+            p {
+                width: 85%;
+            }
+        }
+       
+    }
+}
