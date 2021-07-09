@@ -501,7 +501,7 @@
   line-height: 32px;
 }
 
-#client-testimonials-block #clients .person h5 {
+#client-testimonials-block #clients .person h4 {
   font-family: "Fraunces", serif;
   color: #23303e;
   font-size: 1em;
@@ -509,7 +509,7 @@
   margin: 14% 0 0;
 }
 
-#client-testimonials-block #clients .person h6 {
+#client-testimonials-block #clients .person h5 {
   font-family: "Barlow", sans-serif;
   color: #a7abae;
   font-size: 0.75em;
